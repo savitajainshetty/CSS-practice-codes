@@ -17,4 +17,4 @@ It includes simple examples and exercises to improve my styling skills.
 
 - Clone the repository:
   ```bash
-  git clone https://github.com/savitajainshetty/your-repo-name.git
+  git clone https://github.com/savitajainshetty/CSS-practice-codes.git

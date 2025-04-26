@@ -1,0 +1,44 @@
+/*Id selector: */
+#main-heading {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+/*class selector: */
+.para {
+          color: darkblue;
+          font-style: italic;
+}
+ .addon{
+    background-color: aliceblue;
+ }
+
+ /* arrtibute selector: */
+ input[type="email"] {
+      background-color: burlywood;
+      border: 2px solid black;
+ }
+
+ /* desendent selector: */
+ div pre {
+    color: blue;
+ }
+
+
+ /* child selector: */
+ div>pre {
+     background-color: aquamarine;
+ }
+
+
+ /* adjasent selector: */
+ h3+pre {
+        text-align: center;
+ }
+
+
+ /* genaral sibling selector: */
+ h3 ~ pre {
+    background-color: burlywood;
+    font-size: large;
+ }

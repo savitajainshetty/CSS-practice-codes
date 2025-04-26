@@ -1,0 +1,47 @@
+<style>
+p {
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    /*animation-name: changeclr;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    animation: changeclr 2s infinite; */
+    animation: multicolor 2s infinite;
+}
+
+
+@keyframes changeclr {
+    from {
+        background-color: blueviolet;
+    }
+    to {
+        background-color: orange;
+    }
+}
+
+@keyframes multicolor {
+    0% {
+        background-color: aquamarine;
+    }
+    25% {
+        background-color: blueviolet;
+    }
+
+    50% {
+        background-color: burlywood;
+    }
+    75% {
+        background-color: darkgoldenrod;
+        transform: translate(400px);
+    }
+    100% {
+        background-color: green;
+    }
+}
+</style>
+
+<body>
+    <p></p>
+</body>
